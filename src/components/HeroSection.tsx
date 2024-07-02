@@ -12,10 +12,10 @@ const HeroSection = () => {
       <div className="p-4 relative z-10 w-full text-center">
         <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text 
         text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400"
-        >Master the art of music</h1>
+        >Master In Frontend Web</h1>
         <p className="mt-4 font-normal text-base md:text-lg
         text-neutral-300 max-w-lg mx-auto">
-        Drive into our comprehensive music courses Advancedtransform your musical journey today. Weather 
+        Drive into our comprehensive programming  courses Advancedtransform your programming journey today. Weather 
             you're a beginner or loking to refine your skills
             ,join us to unlock your true potential.
         </p>
