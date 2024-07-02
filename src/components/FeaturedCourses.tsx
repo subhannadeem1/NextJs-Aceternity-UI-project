@@ -3,7 +3,7 @@ import Link from "next/link"
 import courseData from "../data/music_courses.json"
 import { BackgroundGradient } from "./ui/background-gradient"
 import { Button } from '@mantine/core';
-
+console.log(courseData);
 interface courses{
     id: number,
         title: string,
@@ -51,10 +51,13 @@ const FeaturedCourses = () => {
                        
                         <Link href={`/courses/$
                         {course.slug}`} 
-                        className="px-3 py-2 rounded border
-        border-neutral-600 text-neutral-700 bg-white
-        hover:bg-gray-100 transition duration-200">
-                            Learn More
+                        >
+                          <Button
+      variant="gradient"
+      gradient={{ from: 'violet', to: 'cyan', deg: 90 }}
+    >
+      Learn More
+    </Button>
                             </Link>
                         </div>
                 </BackgroundGradient>
@@ -65,10 +68,16 @@ const FeaturedCourses = () => {
       </div>
 
       <div className="mt-20 text-center">
-        <Link href={"/courses"}
-        className="px-4 py-2 rounded border
-        border-neutral-600 text-neutral-700 bg-white
-        hover:bg-gray-100 transition duration-200">View All Courses</Link>
+        <Link href={"/courses"}>
+        <Button size="md"
+      variant="gradient"
+      gradient={{ from: 'violet', to: 'gray', deg: 90 }}
+
+    >
+      view all courses
+    </Button>
+        
+        </Link>
       </div>
 
       

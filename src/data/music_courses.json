@@ -1,65 +1,74 @@
 {
-    "courses": [
-      {
-        "id": 1,
-        "title": "Guitar Fundamentals",
-        "slug": "guitar-fundamentals",
-        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
-        "price": 99.99,
-        "instructor": "John Doe",
-        "isFeatured": true,
-        "image": "/courses/guitar.jpg"
-      },
-      {
-        "id": 2,
-        "title": "Piano Basics",
-        "slug": "piano-basics",
-        "description": "Start your journey in playing piano with easy-to-follow lessons.",
-        "price": 89.99,
-        "instructor": "Jane Smith",
-        "isFeatured": false,
-        "image": "/courses/piano.jpg"
-      },
-      {
-        "id": 3,
-        "title": "Drum Techniques",
-        "slug": "drum-techniques",
-        "description": "Master the essential techniques for playing drums effectively.",
-        "price": 79.99,
-        "instructor": "Mike Johnson",
-        "isFeatured": true,
-        "image": "/courses/drums.jpg"
-      },
-      {
-        "id": 4,
-        "title": "Violin for Beginners",
-        "slug": "violin-for-beginners",
-        "description": "Learn how to play the violin with this step-by-step beginner's course.",
-        "price": 69.99,
-        "instructor": "Emily Davis",
-        "isFeatured": false,
-        "image": "/courses/violin.jpg"
-      },
-      {
-        "id": 5,
-        "title": "Flute Fundamentals",
-        "slug": "flute-fundamentals",
-        "description": "Get started with flute playing through our easy-to-understand lessons.",
-        "price": 59.99,
-        "instructor": "Chris Brown",
-        "isFeatured": true,
-        "image": "/courses/flute.jpg"
-      },
-      {
-        "id": 6,
-        "title": "Singing Basics",
-        "slug": "singing-basics",
-        "description": "Improve your singing skills with this comprehensive beginner's course.",
-        "price": 49.99,
-        "instructor": "Anna Wilson",
-        "isFeatured": false,
-        "image": "/courses/singing.jpg"
-      }
-    ]
-  }
-  
+  "courses": [
+    {
+      "id": 2,
+      "title": "JavaScript Essentials",
+      "slug": "javascript-essentials",
+      "description": "Dive into the basics of JavaScript, one of the core technologies of the web.",
+      "price": 49.99,
+      "instructor": "Jane Smith",
+      "isFeatured": true,
+      "image": "/courses/javascript.jpg"
+    },
+    {
+      "id": 4,
+      "title": "React Fundamentals",
+      "slug": "react-fundamentals",
+      "description": "Learn the fundamentals of React to build dynamic web applications.",
+      "price": 89.99,
+      "instructor": "Emily Davis",
+      "isFeatured": true,
+      "image": "/courses/react.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Next.js From Scratch",
+      "slug": "nextjs-from-scratch",
+      "description": "Explore Next.js to enhance your React applications with server-side rendering.",
+      "price": 99.99,
+      "instructor": "Michael Brown",
+      "isFeatured": true,
+      "image": "/courses/nextjs.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Advanced Tailwind CSS",
+      "slug": "advanced-tailwind-css",
+      "description": "Master the utility-first approach in web design with advanced Tailwind CSS techniques.",
+      "price": 69.99,
+      "instructor": "Samantha Reed",
+      "isFeatured": false,
+      "image": "/courses/tailwindcss.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Building Interfaces with Mantine",
+      "slug": "building-interfaces-with-mantine",
+      "description": "Create beautiful and functional user interfaces using Mantine UI, a modern React component library.",
+      "price": 59.99,
+      "instructor": "Chris Wong",
+      "isFeatured": true,
+      "image": "/courses/mantineui.jpg"
+    },
+    {
+      "id": 8,
+      "title": "React Hooks in Depth",
+      "slug": "react-hooks-in-depth",
+      "description": "Learn to build more readable and maintainable components using React Hooks.",
+      "price": 79.99,
+      "instructor": "Laura Johnson",
+      "isFeatured": true,
+      "image": "/courses/react-hooks.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Advanced Tailwind CSS",
+      "slug": "advanced-tailwind-css",
+      "description": "create beautiful and functional user interfaces using Mantine UI, a modern React component library.",
+      "price": 79.99,
+      "instructor": "Laura Johnson",
+      "isFeatured": true,
+      "image": "/courses/react-hooks.jpg"
+    }
+  ]
+}
