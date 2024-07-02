@@ -49,8 +49,7 @@ const FeaturedCourses = () => {
                         
                         <br/>
                        
-                        <Link href={`/courses/$
-                        {course.slug}`} 
+                        <Link href={"/courses"} 
                         >
                           <Button
       variant="gradient"
