@@ -1,0 +1,65 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Guitar Fundamentals",
+        "slug": "guitar-fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "instructor": "John Doe",
+        "isFeatured": true,
+        "image": "/courses/guitar.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Piano Basics",
+        "slug": "piano-basics",
+        "description": "Start your journey in playing piano with easy-to-follow lessons.",
+        "price": 89.99,
+        "instructor": "Jane Smith",
+        "isFeatured": false,
+        "image": "/courses/piano.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Drum Techniques",
+        "slug": "drum-techniques",
+        "description": "Master the essential techniques for playing drums effectively.",
+        "price": 79.99,
+        "instructor": "Mike Johnson",
+        "isFeatured": true,
+        "image": "/courses/drums.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Violin for Beginners",
+        "slug": "violin-for-beginners",
+        "description": "Learn how to play the violin with this step-by-step beginner's course.",
+        "price": 69.99,
+        "instructor": "Emily Davis",
+        "isFeatured": false,
+        "image": "/courses/violin.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Flute Fundamentals",
+        "slug": "flute-fundamentals",
+        "description": "Get started with flute playing through our easy-to-understand lessons.",
+        "price": 59.99,
+        "instructor": "Chris Brown",
+        "isFeatured": true,
+        "image": "/courses/flute.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Singing Basics",
+        "slug": "singing-basics",
+        "description": "Improve your singing skills with this comprehensive beginner's course.",
+        "price": 49.99,
+        "instructor": "Anna Wilson",
+        "isFeatured": false,
+        "image": "/courses/singing.jpg"
+      }
+    ]
+  }
+  
